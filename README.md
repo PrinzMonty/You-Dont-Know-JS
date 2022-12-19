@@ -1,65 +1,65 @@
-# You Don't Know JS Yet (book series) - 2nd Edition
+# Du kennst JS "noch" nicht (Buchreihe) - 2. Auflage
 
-This is a series of books diving deep into the core mechanisms of the JavaScript language. This is the **second edition** of the book series:
+Dies ist eine Reihe von Büchern, die tief in die Kernmechanismen der JavaScript-Sprache eintauchen. Dies ist die **zweite Ausgabe** der Buchreihe:
 
 <a href="https://leanpub.com/ydkjsy-get-started"><img src="get-started/images/cover.png" width="75"></a>&nbsp;&nbsp;
 <a href="https://leanpub.com/ydkjsy-scope-closures"><img src="scope-closures/images/cover.png" width="75"></a>&nbsp;&nbsp;...
 
-**To read more about the motivations and perspective behind this book series, check out the [Preface](preface.md).**
+**Wenn du mehr über die Beweggründe und die Perspektive dieser Buchreihe erfahren möchten, lies dir das [Vorwort](preface.md) durch.**
 
-If you're looking for the previous **first edition** books, [they can be found here](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/README.md).
+Wenn du nach den früheren Büchern der **Erstausgabe** suchst, [findest du sie hier](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/README.md).
 
-## Titles
+## Buchtitel
 
-I recommend reading the **second edition** books in this order:
+Ich empfehle, die 2. Auflage in folgender Reihenfolge zu lesen:
 
-* [Get Started](get-started/README.md) | [Buy on Leanpub](https://leanpub.com/ydkjsy-get-started) | [Buy on Amazon](https://www.amazon.com/dp/B084BNMN7T)
-* [Scope & Closures](scope-closures/README.md) | [Buy on Leanpub](https://leanpub.com/ydkjsy-scope-closures) | [Buy on Amazon](https://www.amazon.com/dp/B08634PZ3N)
-* [Objects & Classes](objects-classes/README.md) (draft stable)
-* [Types & Grammar](types-grammar/README.md) (draft in progress)
-* Sync & Async (not yet started)
-* ES.Next & Beyond (not yet started)
+-   [Los geht's](get-started/README.md) | [Kaufen bei Leanpub](https://leanpub.com/ydkjsy-get-started) | [Kaufen bei Amazon](https://www.amazon.com/dp/B084BNMN7T)
+-   [Scope & Closures](scope-closures/README.md) | [Kaufen bei Leanpub](https://leanpub.com/ydkjsy-scope-closures) | [Kaufen bei Amazon](https://www.amazon.com/dp/B08634PZ3N)
+-   [Objekte & Klassen](objects-classes/README.md) (Entwurf stable)
+-   [Typen & Sprachdefinition](types-grammar/README.md) (Entwurf in Arbeit)
+-   Sync & Async (noch nicht gestarted)
+-   ES.Next & darüber hinaus (noch nicht gestarted)
 
-If you're looking for the previous **first edition** books, [they can be found here](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/README.md).
+Wenn du nach den früheren Büchern der **Erstausgabe** suchst, [findest du sie hier](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/README.md).
 
-## Publishing
+## Veröffentlichung
 
-As always, you'll be able to read these books online here entirely for free.
+Wie gewohnt kannst du die Bücher hier Online komplett kostenlos lesen.
 
-This edition of the books is being self-published through [GetiPub](https://geti.pub) publishing. The published books will be made available for sale through normal book retail sources.
+Diese Ausgabe der Bücher wird im "Selbstverlag" über [GetiPub](https://geti.pub) veröffentlicht. Die veröffentlichten Bücher werden auch über den normalen Buchhandel zum Verkauf angeboten.
 
-If you'd like to contribute financially towards the effort (or any of my other OSS efforts) aside from purchasing the published books, please consider these options:
+Wenn du neben dem Kauf der Bücher auch einen finanziellen Beitrag zu diesem Projekt (oder zu einer meiner anderen OSS-Bemühungen) leisten möchtest, beachte bitte folgende Möglichkeiten:
 
-* [Github Sponsorship](https://github.com/users/getify/sponsorship)
-* [Patreon](https://www.patreon.com/getify)
-* [Paypal](https://www.paypal.me/getify)
+-   [Github Sponsorship](https://github.com/users/getify/sponsorship)
+-   [Patreon](https://www.patreon.com/getify)
+-   [Paypal](https://www.paypal.me/getify)
 
-## Contributions
+## Beitragen
 
-Please feel free to contribute to the quality of this content by submitting PRs for improvements to code snippets, explanations, etc. While typo fixes are welcomed, they will likely be caught through normal editing/publishing processes, **so please don't worry about them right now.**
+Bitte trage zur Qualität dieses Inhalts bei, indem du PRs für Verbesserungen von Code Beispielen, Erklärungen usw. einreichst. Tippfehlerkorrekturen sind zwar willkommen, werden aber wahrscheinlich durch den normalen Bearbeitungs-/Veröffentlichungsprozess entdeckt, **also mach dir bitte im Moment keine Gedanken darüber.**
 
-Any contributions you make to this effort **are of course greatly appreciated**.
+Jeder Beitrag, den du leistest, **ist natürlich willkommen**.
 
-But **PLEASE** read the [Contributions Guidelines](CONTRIBUTING.md) carefully before submitting a PR.
+Aber **BITTE** lies die [Richtlinien für die Veröffentlichung](CONTRIBUTING.md) sorgfältig bevor du ein PR einreichst!
 
-## Thank You To These Wonderful Sponsors
+## Ein großer Dank geht auch unseren Sponsoren
 
 [![Frontend Masters Logo (dark)](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/external-logos/fem_logo-light.svg)](https://frontendmasters.com#gh-light-mode-only)
 
 [![Frontend Masters Logo (light)](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/external-logos/fem_logo.svg)](https://frontendmasters.com#gh-dark-mode-only)
 
-**The first two books of the second edition** are exclusively sponsored by **[Frontend Masters](https://frontendmasters.com)**.
+**Die ersten zwei Bücher der 2. Auflage wurden von **[Frontend Masters](https://frontendmasters.com)** gesponsort.**
 
-Frontend Masters is the gold standard for top-of-the-line expert training material in frontend-oriented software development. With over 150 courses on all things frontend, this should be your first and only stop for quality video training on HTML, CSS, JS, and related technologies.
+Frontend Masters ist der Goldstandard für erstklassige Expertenschulung im Bereich der frontend-orientierten Softwareentwicklung. Mit über 150 Kursen rund um das Thema Frontend sollte dies Ihre erste und einzige Anlaufstelle für hochwertige Videoschulungen zu HTML, CSS, JS und verwandten Technologien sein.
 
-**Note:** I teach [all my workshops](https://frontendmasters.com/kyle-simpson) exclusively through Frontend Masters. If you like this book content, please check out my video training courses.
+**Anmerkung:** Ich unterichte [alle meine Workshops](https://frontendmasters.com/kyle-simpson) exklusiv über Frontend Masters. Wenn du meine Bücher magst, dann schau dir doch meine Videotrainings an (english!).
 
-I want to extend a warm and deep thanks to Marc Grabanski and the entire Frontend Masters team, not only for their excellent work with the video training platform, but for their unwavering support of me and of the "You Don't Know JS" books!
+Ich möchte mich bei Marc Grabanski und dem gesamten Frontend Masters-Team herzlich bedanken, nicht nur für ihre hervorragende Arbeit mit der Video-Trainingsplattform, sondern auch für ihre unermüdliche Unterstützung für mich und die "You Don't Know JS"-Bücher!
 
-----
+---
 
-## License & Copyright
+## Lizenz & Copyright
 
-The materials herein are all &copy; 2019-2022 Kyle Simpson.
+Alle Materialien sind geschützt &copy; 2019-2022 Kyle Simpson.
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported License</a>.
