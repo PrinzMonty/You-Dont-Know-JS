@@ -1,45 +1,47 @@
-# You Don't Know JS Yet: Get Started - 2nd Edition
+# Du kennst JS "noch" nicht: Los geht's - 2. Auflage
 
-## Table of Contents
+## Inhaltsverzeichnis
 
-* Foreword
-* Preface
-* Chapter 1: What Is JavaScript?
-    * About This Book
-    * What's With That Name?
-    * Language Specification
-    * Many Faces
-    * Backwards & Forwards
-    * What's in an Interpretation?
-    * Strictly Speaking
-    * Defined
-* Chapter 2: Surveying JS
-    * Each File is a Program
-    * Values
-    * Declaring and Using Variables
-    * Functions
-    * Comparisons
-    * How We Organize in JS
-    * The Rabbit Hole Deepens
-* Chapter 3: Digging To The Roots Of JS
-    * Iteration
+* Vorwort
+* Einleitung
+* Kapitel 1: Was ist JavaScript?
+    * Über dieses Buch
+    * Was hat es mit dem namen Javascript aufsich?
+    * Sprachspezifikation
+    * Viele Gesichter
+    * Rückwärts & Vorwärts
+    * Überspringen der Lücken
+    * Füllen der Lücken
+    * Was steckt in einer Interpretation?
+    * Genau genommen (strict mode)
+    * Definiert
+* Kapitel 2: Inspektion von JS
+    * Jede Datei ist ein Programm
+    * Werte
+    * Deklarieren und Verwenden von Variablen
+    * Funktionen
+    * Vergleiche
+    * Wie wir uns in JS organisieren
+    * Das Kaninchenloch vertieft sich
+* Kapitel 3: Den Wurzeln von JS auf den Grund gehen
+    * Wiederholung
     * Closure
-    * `this` Keyword
-    * Prototypes
-    * Asking "Why?"
-* Chapter 4: The Bigger Picture
-    * Pillar 1: Scope and Closure
-    * Pillar 2: Prototypes
-    * Pillar 3: Types and Coercion
-    * With the Grain
-    * In Order
-* Appendix A: Exploring Further
-    * Values vs. References
-    * So Many Function Forms
-    * Coercive Conditional Comparison
-    * Prototypal "Classes"
-* Appendix B: Practice, Practice, Practice!
-    * Practicing Comparisons
-    * Practicing Closure
-    * Practicing Prototypes
-    * Suggested Solutions
+    * `this` Schlüsselwort
+    * Prototypen
+    * Frage "Warum?"
+* Kapitel 4: Das große Ganze
+    * Säule 1: Scope and Closure
+    * Säule 2: Prototypen
+    * Säule 3: Typen und Zwang
+    * Mit dem Strom schwimmen
+    * In Ordnung
+* Anhang A: Weiter erkunden
+    * Werte vs. Referenzen
+    * So viele Funktionsformen
+    * Zwangsbedingter Vergleich
+    * Prototypisch "Klassen"
+* Anhang B: Üben, Üben, Üben!
+    * Vergleiche üben
+    * Closure üben
+    * Prototypen üben
+    * Lösungsvorschläge
