@@ -40,8 +40,8 @@
     * So viele Funktionsformen
     * Zwangsbedingter Vergleich
     * Prototypisch "Klassen"
-* Anhang B: Üben, Üben, Üben!
-    * Vergleiche üben
-    * Closure üben
-    * Prototypen üben
+* Anhang B: Anwenden, Anwenden, Anwenden!
+    * Vergleiche anwenden
+    * Closure anwenden
+    * Prototypen anwenden
     * Lösungsvorschläge
