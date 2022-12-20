@@ -24,7 +24,7 @@
     * Wie wir uns in JS organisieren
     * Das Kaninchenloch vertieft sich
 * Kapitel 3: Den Wurzeln von JS auf den Grund gehen
-    * Wiederholung
+    * Iterieren
     * Closure
     * `this` Schlüsselwort
     * Prototypen
@@ -34,7 +34,7 @@
     * Säule 2: Prototypen
     * Säule 3: Typen und Zwang
     * Mit dem Strom schwimmen
-    * In Ordnung
+    * Reihenfolge
 * Anhang A: Weiter erkunden
     * Werte vs. Referenzen
     * So viele Funktionsformen
