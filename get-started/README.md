@@ -16,5 +16,5 @@
 * [Kapitel 2: Inspektion von JS](ch2.md)
 * [Kapitel 3: Den Wurzeln von JS auf den Grund gehen](ch3.md)
 * [Kapitel 4: Das große Ganze](ch4.md)
-* [Appendix A: Weiter erkunden](apA.md)
-* [Appendix B: Üben, Üben, Üben!](apB.md)
+* [Anhang A: Weiter erkunden](apA.md)
+* [Anhang B: Anwenden, Anwenden, Anwenden!](apB.md)
