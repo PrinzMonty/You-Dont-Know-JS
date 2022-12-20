@@ -1,20 +1,20 @@
-# You Don't Know JS Yet: Get Started - 2nd Edition
+# Du kennst JS "noch" nicht: Los geht's - 2. Auflage
 
 <img src="images/cover.png" width="300">
 
 -----
 
-**[Purchase ebook/PDF from Leanpub](https://leanpub.com/ydkjsy-get-started)**
+**[Kaufen ebook/PDF from Leanpub](https://leanpub.com/ydkjsy-get-started)**
 
 -----
 
-[Table of Contents](toc.md)
+[Inhaltsverzeichnis](toc.md)
 
-* [Foreword](foreword.md) (by [Brian Holt](https://twitter.com/holtbt))
-* [Preface](../preface.md)
-* [Chapter 1: What Is JavaScript?](ch1.md)
-* [Chapter 2: Surveying JS](ch2.md)
-* [Chapter 3: Digging to the Roots of JS](ch3.md)
-* [Chapter 4: The Bigger Picture](ch4.md)
-* [Appendix A: Exploring Further](apA.md)
-* [Appendix B: Practice, Practice, Practice!](apB.md)
+* [Vorwort](foreword.md) (by [Brian Holt](https://twitter.com/holtbt))
+* [Einleitung](../preface.md)
+* [Kapitel 1: Was ist JavaScript?](ch1.md)
+* [Kapitel 2: Inspektion von JS](ch2.md)
+* [Kapitel 3: Den Wurzeln von JS auf den Grund gehen](ch3.md)
+* [Kapitel 4: Das große Ganze](ch4.md)
+* [Appendix A: Weiter erkunden](apA.md)
+* [Appendix B: Üben, Üben, Üben!](apB.md)
