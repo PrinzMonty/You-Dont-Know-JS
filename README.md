@@ -1,4 +1,14 @@
-# Du kennst JS "noch" nicht (Buchreihe) - 2. Auflage
+# You Don't Know JS Yet (Buchreihe) - 2. Auflage
+
+**_Über die Übersetzung:_**
+
+_Ich habe mich bei der Übersetzung dafür entschieden, den Titel nicht zu übersetzen, da ich finde, dass er in Englisch die Kernaussage besser vermittelt. Auf Deutsch würde der Titel wahrscheinlich ungefähr so lauten: **'Du kennst JS "noch" nicht'**. Das klingt irgendwie nicht richtig._
+
+_Ich weise auch darauf hin, dass ich kein professioneller Übersetzer bin. Ich mache das hier, um mich intensiv mit der Buchreihe auseinanderzusetzen, indem ich jedes Kapitel übersetze und vertiefe. Wenn ihr etwas anders übersetzen würdet, stellt einfach einen Pullrequest und wir können die Übersetzung gemeinsam verbessern._
+
+_Ich finde es wichtig, in der Sprache die gleiche Wertschätzung und Gleichberechtigung für alle Geschlechter auszudrücken, um Diskriminierung und Benachteiligung zu vermeiden. Daher habe ich zu Beginn überlegt, die Texte gendergerecht zu übersetzen. Da dies aber an vielen Stellen voraussetzen würde, dass ich die Formulierungen ändern müsste, habe ich mich aus Zeitgründen dagegen entschieden. Bitte verzeiht mir._
+
+---
 
 Dies ist eine Reihe von Büchern, die tief in die Kernmechanismen der JavaScript-Sprache eintauchen. Dies ist die **zweite Ausgabe** der Buchreihe:
 
