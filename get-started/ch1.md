@@ -6,18 +6,17 @@ Du kennst JS **NOCH** nicht. Ich auch nicht, jedenfalls nicht vollständig. Kein
 In diesem ersten Kapitel des ersten Buches der Reihe *You Don't Know JS Yet*  (YDKJSY) werden wir uns etwas Zeit nehmen, um eine Grundlage zu schaffen, auf der wir weiterarbeiten können. Wir müssen damit beginnen, eine Reihe von wichtigen Hintergrunddetails zu klären und mit einigen Mythen und Missverständnissen darüber aufzuräumen, was die Sprache wirklich ist (und was nicht!).
 
 Dies ist ein guter Einblick in die Struktur und den Prozess, wie JS organisiert und gewartet wird. Alle JS-Entwickler sollten dies verstehen. Wenn Sie JS kennenlernen möchten, können Sie hier die ersten Schritte auf dieser Reise unternehmen.
+## Über dieses Buch
 
-## About This Book
+Ich betone das Wort Reise, weil JS kennenlernen kein Ziel, sondern eine Richtung ist. Egal, wie viel Zeit du mit der Sprache verbringst, du wirst immer noch etwas anderes finden, das du lernen und ein bisschen besser verstehen kannst. Betrachten dieses Buch also nicht als etwas, das du im Eiltempo durcharbeiten solltest, um einen schnellen Erfolg zu erzielen. Stattdessen sind Geduld und Ausdauer das Beste, um die ersten Schritte zu machen.
 
-I emphasize the word journey because *knowing JS* is not a destination, it's a direction. No matter how much time you spend with the language, you will always be able to find something else to learn and understand a little better. So don't look at this book as something to rush through for a quick achievement. Instead, patience and persistence are best as you take these first few steps.
+Nach diesem Hintergrundkapitel gibt der Rest des Buches einen Überblick darüber, was du finden wirst, wenn du dich mit den YDKJSY-Büchern beschäftigst und JS studierst.
 
-Following this background chapter, the rest of the book lays out a high-level map of what you will find as you dig into and study JS with the YDKJSY books.
+Insbesondere werden in Kapitel 4 drei Hauptsäulen identifiziert, um die herum die JS-Sprache organisiert ist: Scope/Closures, Prototypen/Objekte und Typen/Coercion. JS ist eine breit gefächerte und anspruchsvolle Sprache mit vielen Funktionen und Möglichkeiten. Aber alles von JS basiert auf diesen drei Grundpfeilern.
 
-In particular, Chapter 4 identifies three main pillars around which the JS language is organized: scope/closures, prototypes/objects, and types/coercion. JS is a broad and sophisticated language, with many features and capabilities. But all of JS is founded on these three foundational pillars.
+Beachte, dass dieses Buch, auch wenn es den Titel "Get Started" trägt, **nicht als Einsteiger-/Einführungsbuch** gedacht ist. Die Hauptaufgabe dieses Buches ist es, dich auf das tiefe Studium von JS im weiteren Verlauf der Serie vorzubereiten; es wurde unter der Annahme geschrieben, dass du bereits über mehrmonatige Erfahrung mit JS verfügst. Um also das Beste aus *Get Started* herauszuholen, solltst du viel Zeit mit dem Schreiben von JS-Code verbringen, um deine Erfahrung erweitern zu können.
 
-Keep in mind that even though this book is titled "Get Started," it's **not intended as a beginner/intro book**. This book's main job is to get you ready for studying JS deeply throughout the rest of the series; it's written assuming you already have familiarity with JS over at least several months experience before moving on in YDKJSY. So to get the most out of *Get Started*, make sure you spend plenty of time writing JS code to build up your experience.
-
-Even if you've already written a lot of JS before, this book should not be skimmed over or skipped; take your time to fully process the material here. **A good start always depends on a solid first step.**
+Auch wenn du schon viel JS geschrieben hast, solltest du dieses Buch nicht überfliegen oder überspringen; Nehmen dir Zeit, um das Material hier vollständig zu verarbeiten. **Ein guter Start hängt immer von einem soliden ersten Schritt ab.**
 
 ## What's With That Name?
 
