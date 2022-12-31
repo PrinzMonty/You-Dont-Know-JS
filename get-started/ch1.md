@@ -82,7 +82,7 @@ In den frühen 2000er Jahren, als Microsoft eine abgezweigte und Reverse-Enginee
 
 Alle großen Browser und Gerätehersteller haben sich verpflichtet, ihre JS-Implementierungen mit dieser zentralen Spezifikation konform zu halten. Natürlich implementieren die Engines Funktionen zu unterschiedlichen Zeiten. Es sollte jedoch nie der Fall sein, dass die v8-Engine (die JS-Engine von Chrome) eine bestimmte Funktion anders oder inkompatibel als die SpiderMonkey-Engine (die JS-Engine von Mozilla) implementiert.
 
-Das bedeutet, dass du **ein JS** erlernst und du duch überall auf dasselbe JS verlassen kannst.
+Das bedeutet, dass du **ein JS** erlernst und du dich überall auf dasselbe JS verlassen kannst.
 
 ### The Web Rules Everything About (JS)
 
