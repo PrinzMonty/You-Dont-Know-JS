@@ -18,37 +18,39 @@ Beachte, dass dieses Buch, auch wenn es den Titel "Get Started" trägt, **nicht 
 
 Auch wenn du schon viel JS geschrieben hast, solltest du dieses Buch nicht überfliegen oder überspringen; Nehmen dir Zeit, um das Material hier vollständig zu verarbeiten. **Ein guter Start hängt immer von einem soliden ersten Schritt ab.**
 
-## What's With That Name?
+## Was hat es mit dem namen "Javascript" aufsich?
 
-The name JavaScript is probably the most mistaken and misunderstood programming language name.
+Der Name JavaScript ist wahrscheinlich der am meisten missverstandene Name für eine Programmiersprache.
 
-Is this language related to Java? Is it only the script form for Java? Is it only for writing scripts and not real programs?
+Ist diese Sprache mit Java verwandt? Ist es nur das eine Skriptsprache für Java? Kann man damit nur Skripte schreiben und keine echten Programme?
 
-The truth is, the name JavaScript is an artifact of marketing shenanigans. When Brendan Eich first conceived of the language, he code-named it Mocha. Internally at Netscape, the brand LiveScript was used. But when it came time to publicly name the language, "JavaScript" won the vote.
+Die Wahrheit ist, dass der Name JavaScript ein Artefakt eines Marketing-Schwindels ist. Als Brendan Eich die Sprache zum ersten Mal konzipierte, gab er ihr den Codenamen Mocha. Intern wurde bei Netscape die Marke LiveScript verwendet. Aber als es an der Zeit war, die Sprache öffentlich zu benennen, gewann "JavaScript".
 
-Why? Because this language was originally designed to appeal to an audience of mostly Java programmers, and because the word "script" was popular at the time to refer to lightweight programs. These lightweight "scripts" would be the first ones to embed inside of pages on this new thing called the web!
+Warum? Da diese Sprache ursprünglich für ein Publikum konzipiert war, das sich hauptsächlich aus Java-Programmierern zusammensetzte, und weil das Wort "Skript" zu dieser Zeit sehr beliebt war, um leichtgewichtige Programme zu bezeichnen. Diese leichtgewichtigen "Skripte" wären die ersten, die sich in die Seiten des neuen Webs einbetten ließen!
 
-In other words, JavaScript was a marketing ploy to try to position this language as a palatable alternative to writing the heavier and more well-known Java of the day. It could just as easily have been called "WebJava," for that matter.
+Mit anderen Worten: JavaScript war ein Marketing-Trick, um diese Sprache als schmackhafte Alternative zum schwereren und bekannteren Java der damaligen Zeit zu positionieren. Es hätte übrigens genauso gut "WebJava" genannt werden können.
 
-There are some superficial resemblances between JavaScript's code and Java code. Those similarities don't particularly come from shared development, but from both languages targeting developers with assumed syntax expectations from C (and to an extent, C++).
+Es gibt einige oberflächliche Ähnlichkeiten zwischen dem Code von JavaScript und Java. Diese Ähnlichkeiten sind nicht so sehr auf die gemeinsame Entwicklung zurückzuführen, sondern auf die Tatsache, dass beide Sprachen sich an Entwickler richten, die eine Syntax wie in C (und in gewissem Maße auch in C++) erwarten.
 
-For example, we use the `{` to begin a block of code and the `}` to end that block of code, just like C/C++ and Java. We also use the `;` to punctuate the end of a statement.
+Zum Beispiel verwenden wir das `{`, um einen Codeblock zu beginnen und das `}`, um diesen Codeblock zu beenden, genau wie C/C++ und Java. Wir verwenden auch das `;`, um das Ende einer Anweisung zu markieren.
 
-In some ways, legal relationships run even deeper than the syntax. Oracle (via Sun), the company that still owns and runs Java, also owns the official trademark for the name "JavaScript" (via Netscape). This trademark is almost never enforced, and likely couldn't be at this point.
+In mancher Hinsicht gehen die rechtlichen Beziehungen sogar noch tiefer als die Syntax. Oracle (über Sun), das Unternehmen, das immer noch Java besitzt und betreibt, besitzt auch die offizielle Marke für den Namen "JavaScript" (über Netscape). Diese Marke wird fast nie durchgesetzt und könnte es wahrscheinlich auch nicht.
 
-For these reasons, some have suggested we use JS instead of JavaScript. That is a very common shorthand, if not a good candidate for an official language branding itself. Indeed, these books use JS almost exclusively to refer to the language.
+Aus diesen Gründen haben einige vorgeschlagen, JS anstelle von JavaScript zu verwenden. Das ist eine sehr gebräuchliche Abkürzung, wenn auch kein guter Kandidat für ein offizielles Sprachbranding. In der Tat wird in diesen Büchern fast ausschließlich JS verwendet, um auf die Sprache zu verweisen.
 
-Further distancing the language from the Oracle-owned trademark, the official name of the language specified by TC39 and formalized by the ECMA standards body is **ECMAScript**. And indeed, since 2016, the official language name has also been suffixed by the revision year; as of this writing, that's ECMAScript 2019, or otherwise abbreviated ES2019.
+Um die Sprache weiter von der Oracle-eigenen Marke zu distanzieren, lautet der offizielle Name der vom TC39 spezifizierten und vom ECMA-Normengremium formalisierten Sprache **ECMAScript**. Und seit 2016 wird dem offiziellen Namen der Sprache auch das Revisionsjahr angehängt; zum Zeitpunkt der Erstellung dieses Dokuments ist dies ECMAScript 2019 oder abgekürzt ES2019.
 
-In other words, the JavaScript/JS that runs in your browser or in Node.js, is *an* implementation of the ES2019 standard.
+Mit anderen Worten: Das JavaScript/JS, das in Ihrem Browser oder in Node.js läuft, ist *eine* Implementierung des ES2019-Standards.
 
-| NOTE: |
+| ANMERKUNG: |
 | :--- |
-| Don't use terms like "JS6" or "ES8" to refer to the language. Some do, but those terms only serve to perpetuate confusion. "ES20xx" or just "JS" are what you should stick to. |
+| Verwende keine Begriffe wie "JS6" oder "ES8", um auf die Sprache zu verweisen. Manche tun das, aber diese Begriffe stiften nur Verwirrung. "ES20xx" oder einfach nur "JS" sind die Begriffe, an die du dich halten solltest. |
 
 Whether you call it JavaScript, JS, ECMAScript, or ES2019, it's most definitely not a variant of the Java language!
 
-> "Java is to JavaScript as ham is to hamster." --Jeremy Keith, 2009
+Ob du es nun JavaScript, JS, ECMAScript oder ES2019 nennst, es ist auf jeden Fall keine Variante der Java-Sprache!
+
+> "Java ist für JavaScript wie Schinken (Engl. ham) für Hamster." --Jeremy Keith, 2009
 
 ## Language Specification
 
