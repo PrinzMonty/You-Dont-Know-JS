@@ -50,39 +50,39 @@ Whether you call it JavaScript, JS, ECMAScript, or ES2019, it's most definitely 
 
 Ob du es nun JavaScript, JS, ECMAScript oder ES2019 nennst, es ist auf jeden Fall keine Variante der Java-Sprache!
 
-> "Java ist für JavaScript wie Schinken (Engl. ham) für Hamster." --Jeremy Keith, 2009
+> "Java is to JavaScript as ham is to hamster." --Jeremy Keith, 2009
 
-## Language Specification
+## Sprachspezifikation
 
-I mentioned TC39, the technical steering committee that manages JS. Their primary task is managing the official specification for the language. They meet regularly to vote on any agreed changes, which they then submit to ECMA, the standards organization.
+Ich habe TC39 erwähnt, den technischen ausschuss, der JS verwaltet. Ihre Hauptaufgabe ist die Verwaltung der offiziellen Spezifikation für die Sprache. Sie treffen sich regelmäßig, um über vereinbarte Änderungen abzustimmen, die sie dann der ECMA, der Normungsorganisation, vorlegen.
 
-JS's syntax and behavior are defined in the ES specification.
+Die Syntax und das Verhalten von JS sind in der ES-Spezifikation definiert.
 
-ES2019 happens to be the 10th major numbered specification/revision since JS's inception in 1995, so in the specification's official URL as hosted by ECMA, you'll find "10.0":
+ES2019 ist die zehnte große Spezifikation/Revision seit der Einführung von JS im Jahr 1995. In der offiziellen URL der Spezifikation, die von der ECMA gehostet wird, findest du die nummerierung "10.0":
 
 https://www.ecma-international.org/ecma-262/10.0/
 
-The TC39 committee is comprised of between 50 and about 100 different people from a broad section of web-invested companies, such as browser makers (Mozilla, Google, Apple) and device makers (Samsung, etc). All members of the committee are volunteers, though many of them are employees of these companies and so may receive compensation in part for their duties on the committee.
+Der TC39-Ausschuss besteht aus 50 bis etwa 100 Personen aus einem breiten Spektrum von Unternehmen, die in das Internet investieren, wie z. B. Browserhersteller (Mozilla, Google, Apple) und Gerätehersteller (Samsung, usw.). Alle Mitglieder des Ausschusses arbeiten ehrenamtlich, obwohl viele von ihnen Angestellte dieser Unternehmen sind und daher zum Teil eine Vergütung für ihre Aufgaben im Ausschuss erhalten können.
 
-TC39 meets generally about every other month, usually for about three days, to review work done by members since the last meeting, discuss issues, and vote on proposals. Meeting locations rotate among member companies willing to host.
+TC39 trifft sich in der Regel alle zwei Monate für etwa drei Tage, um die von den Mitgliedern seit der letzten Sitzung geleistete Arbeit zu überprüfen, Probleme zu diskutieren und über Vorschläge abzustimmen. Die Tagungsorte wechseln unter den Mitgliedsunternehmen, die bereit sind, Gastgeber zu sein.
 
-All TC39 proposals progress through a five-stage process—of course, since we're programmers, it's 0-based!—Stage 0 through Stage 4. You can read more about the Stage process here: https://tc39.es/process-document/
+Alle TC39-Vorschläge durchlaufen einen fünfstufigen Prozess - da wir Programmierer sind, ist er natürlich 0-basiert - Stufe 0 bis Stufe 4. du kannst hier mehr über den Stufenprozess lesen: https://tc39.es/process-document/
 
-Stage 0 means roughly, someone on TC39 thinks it's a worthy idea and plans to champion and work on it. That means lots of ideas that non-TC39 members "propose," through informal means such as social media or blog posts, are really "pre-stage 0." You have to get a TC39 member to champion a proposal for it to be considered "Stage 0" officially.
+Stufe 0 bedeutet grob gesagt, dass jemand im TC39 die Idee für wertvoll hält und plant, sich dafür einzusetzen und daran zu arbeiten. Das bedeutet, dass viele Ideen, die von Nicht-TC39-Mitgliedern auf informellem Weg, z. B. über soziale Medien oder Blogbeiträge, "vorgeschlagen" werden, in Wirklichkeit "Vorstufe 0" sind. Du musst ein TC39-Mitglied dazu bringen, sich für einen Vorschlag einzusetzen, damit er offiziell als "Stufe 0" betrachtet wird.
 
-Once a proposal reaches "Stage 4" status, it is eligible to be included in the next yearly revision of the language. It can take anywhere from several months to a few years for a proposal to work its way through these stages.
+Sobald ein Vorschlag den Status "Stufe 4" erreicht, kann er in die nächste jährliche Überarbeitung der Sprache aufgenommen werden. Es kann mehrere Monate bis einige Jahre dauern, bis ein Vorschlag diese Stufen durchlaufen hat.
 
-All proposals are managed in the open, on TC39's Github repository: https://github.com/tc39/proposals
+Alle Vorschläge werden offen auf dem Github-Repository des TC39 verwaltet: https://github.com/tc39/proposals
 
-Anyone, whether on TC39 or not, is welcome to participate in these public discussions and the processes for working on the proposals. However, only TC39 members can attend meetings and vote on the proposals and changes. So in effect, the voice of a TC39 member carries a lot of weight in where JS will go.
+Jeder, ob Mitglied des TC39 oder nicht, ist willkommen, an diesen öffentlichen Diskussionen und den Verfahren zur Bearbeitung der Vorschläge teilzunehmen. Allerdings können nur TC39-Mitglieder an den Sitzungen teilnehmen und über die Vorschläge und Änderungen abstimmen. Die Stimme eines TC39-Mitglieds hat also ein großes Gewicht bei der Entscheidung, wohin JS gehen wird.
 
-Contrary to some established and frustratingly perpetuated myth, there are *not* multiple versions of JavaScript in the wild. There's just **one JS**, the official standard as maintained by TC39 and ECMA.
+Im Gegensatz zu einem etablierten und frustrierend aufrechterhaltenen Mythos gibt es *nicht* mehrere Versionen von JavaScript in freier Wildbahn. Es gibt nur **eine JS**, den offiziellen Standard, der von TC39 und ECMA verwaltet wird.
 
-Back in the early 2000s, when Microsoft maintained a forked and reverse-engineered (and not entirely compatible) version of JS called "JScript," there were legitimately "multiple versions" of JS. But those days are long gone. It's outdated and inaccurate to make such claims about JS today.
+In den frühen 2000er Jahren, als Microsoft eine abgezweigte und Reverse-Engineered (und nicht ganz kompatible) Version von JS namens "JScript" pflegte, gab es legitimerweise "mehrere Versionen" von JS. Aber diese Zeiten sind längst vorbei. Es ist veraltet und unsauber, solche Behauptungen über JS heute zu machen.
 
-All major browsers and device makers have committed to keeping their JS implementations compliant with this one central specification. Of course, engines implement features at different times. But it should never be the case that the v8 engine (Chrome's JS engine) implements a specified feature differently or incompatibly as compared to the SpiderMonkey engine (Mozilla's JS engine).
+Alle großen Browser und Gerätehersteller haben sich verpflichtet, ihre JS-Implementierungen mit dieser zentralen Spezifikation konform zu halten. Natürlich implementieren die Engines Funktionen zu unterschiedlichen Zeiten. Es sollte jedoch nie der Fall sein, dass die v8-Engine (die JS-Engine von Chrome) eine bestimmte Funktion anders oder inkompatibel als die SpiderMonkey-Engine (die JS-Engine von Mozilla) implementiert.
 
-That means you can learn **one JS**, and rely on that same JS everywhere.
+Das bedeutet, dass du **ein JS** erlernst und du duch überall auf dasselbe JS verlassen kannst.
 
 ### The Web Rules Everything About (JS)
 
