@@ -1,11 +1,13 @@
 # You Don't Know JS Yet: Los geht's - 2. Auflage
-# Kapitel 1: Was *ist* JavaScript?
+
+# Kapitel 1: Was _ist_ JavaScript?
 
 Du kennst JS **NOCH** nicht. Ich auch nicht, jedenfalls nicht vollständig. Keiner von uns kennt es. Aber wir können alle anfangen, JS besser kennen zu lernen.
 
-In diesem ersten Kapitel des ersten Buches der Reihe *You Don't Know JS Yet*  (YDKJSY) werden wir uns etwas Zeit nehmen, um eine Grundlage zu schaffen, auf der wir weiterarbeiten können. Wir müssen damit beginnen, eine Reihe von wichtigen Hintergrunddetails zu klären und mit einigen Mythen und Missverständnissen darüber aufzuräumen, was die Sprache wirklich ist (und was nicht!).
+In diesem ersten Kapitel des ersten Buches der Reihe _You Don't Know JS Yet_ (YDKJSY) werden wir uns etwas Zeit nehmen, um eine Grundlage zu schaffen, auf der wir weiterarbeiten können. Wir müssen damit beginnen, eine Reihe von wichtigen Hintergrunddetails zu klären und mit einigen Mythen und Missverständnissen darüber aufzuräumen, was die Sprache wirklich ist (und was nicht!).
 
 Dies ist ein guter Einblick in die Struktur und den Prozess, wie JS organisiert und gewartet wird. Alle JS-Entwickler sollten dies verstehen. Wenn Sie JS kennenlernen möchten, können Sie hier die ersten Schritte auf dieser Reise unternehmen.
+
 ## Über dieses Buch
 
 Ich betone das Wort Reise, weil JS kennenlernen kein Ziel, sondern eine Richtung ist. Egal, wie viel Zeit du mit der Sprache verbringst, du wirst immer noch etwas anderes finden, das du lernen und ein bisschen besser verstehen kannst. Betrachten dieses Buch also nicht als etwas, das du im Eiltempo durcharbeiten solltest, um einen schnellen Erfolg zu erzielen. Stattdessen sind Geduld und Ausdauer das Beste, um die ersten Schritte zu machen.
@@ -14,7 +16,7 @@ Nach diesem Hintergrundkapitel gibt der Rest des Buches einen Überblick darübe
 
 Insbesondere werden in Kapitel 4 drei Hauptsäulen identifiziert, um die herum die JS-Sprache organisiert ist: Scope/Closures, Prototypen/Objekte und Typen/Coercion. JS ist eine breit gefächerte und anspruchsvolle Sprache mit vielen Funktionen und Möglichkeiten. Aber alles von JS basiert auf diesen drei Grundpfeilern.
 
-Beachte, dass dieses Buch, auch wenn es den Titel "Get Started" trägt, **nicht als Einsteiger-/Einführungsbuch** gedacht ist. Die Hauptaufgabe dieses Buches ist es, dich auf das tiefe Studium von JS im weiteren Verlauf der Serie vorzubereiten; es wurde unter der Annahme geschrieben, dass du bereits über mehrmonatige Erfahrung mit JS verfügst. Um also das Beste aus *Get Started* herauszuholen, solltst du viel Zeit mit dem Schreiben von JS-Code verbringen, um deine Erfahrung erweitern zu können.
+Beachte, dass dieses Buch, auch wenn es den Titel "Get Started" trägt, **nicht als Einsteiger-/Einführungsbuch** gedacht ist. Die Hauptaufgabe dieses Buches ist es, dich auf das tiefe Studium von JS im weiteren Verlauf der Serie vorzubereiten; es wurde unter der Annahme geschrieben, dass du bereits über mehrmonatige Erfahrung mit JS verfügst. Um also das Beste aus _Get Started_ herauszuholen, solltst du viel Zeit mit dem Schreiben von JS-Code verbringen, um deine Erfahrung erweitern zu können.
 
 Auch wenn du schon viel JS geschrieben hast, solltest du dieses Buch nicht überfliegen oder überspringen; Nehmen dir Zeit, um das Material hier vollständig zu verarbeiten. **Ein guter Start hängt immer von einem soliden ersten Schritt ab.**
 
@@ -40,10 +42,10 @@ Aus diesen Gründen haben einige vorgeschlagen, JS anstelle von JavaScript zu ve
 
 Um die Sprache weiter von der Oracle-eigenen Marke zu distanzieren, lautet der offizielle Name der vom TC39 spezifizierten und vom ECMA-Normengremium formalisierten Sprache **ECMAScript**. Und seit 2016 wird dem offiziellen Namen der Sprache auch das Revisionsjahr angehängt; zum Zeitpunkt der Erstellung dieses Dokuments ist dies ECMAScript 2019 oder abgekürzt ES2019.
 
-Mit anderen Worten: Das JavaScript/JS, das in Ihrem Browser oder in Node.js läuft, ist *eine* Implementierung des ES2019-Standards.
+Mit anderen Worten: Das JavaScript/JS, das in Ihrem Browser oder in Node.js läuft, ist _eine_ Implementierung des ES2019-Standards.
 
-| ANMERKUNG: |
-| :--- |
+| ANMERKUNG:                                                                                                                                                                                                                   |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Verwende keine Begriffe wie "JS6" oder "ES8", um auf die Sprache zu verweisen. Manche tun das, aber diese Begriffe stiften nur Verwirrung. "ES20xx" oder einfach nur "JS" sind die Begriffe, an die du dich halten solltest. |
 
 Whether you call it JavaScript, JS, ECMAScript, or ES2019, it's most definitely not a variant of the Java language!
@@ -76,7 +78,7 @@ Alle Vorschläge werden offen auf dem Github-Repository des TC39 verwaltet: http
 
 Jeder, ob Mitglied des TC39 oder nicht, ist willkommen, an diesen öffentlichen Diskussionen und den Verfahren zur Bearbeitung der Vorschläge teilzunehmen. Allerdings können nur TC39-Mitglieder an den Sitzungen teilnehmen und über die Vorschläge und Änderungen abstimmen. Die Stimme eines TC39-Mitglieds hat also ein großes Gewicht bei der Entscheidung, wohin JS gehen wird.
 
-Im Gegensatz zu einem etablierten und frustrierend aufrechterhaltenen Mythos gibt es *nicht* mehrere Versionen von JavaScript in freier Wildbahn. Es gibt nur **eine JS**, den offiziellen Standard, der von TC39 und ECMA verwaltet wird.
+Im Gegensatz zu einem etablierten und frustrierend aufrechterhaltenen Mythos gibt es _nicht_ mehrere Versionen von JavaScript in freier Wildbahn. Es gibt nur **eine JS**, den offiziellen Standard, der von TC39 und ECMA verwaltet wird.
 
 In den frühen 2000er Jahren, als Microsoft eine abgezweigte und Reverse-Engineered (und nicht ganz kompatible) Version von JS namens "JScript" pflegte, gab es legitimerweise "mehrere Versionen" von JS. Aber diese Zeiten sind längst vorbei. Es ist veraltet und unsauber, solche Behauptungen über JS heute zu machen.
 
@@ -84,25 +86,25 @@ Alle großen Browser und Gerätehersteller haben sich verpflichtet, ihre JS-Impl
 
 Das bedeutet, dass du **ein JS** erlernst und du dich überall auf dasselbe JS verlassen kannst.
 
-### The Web Rules Everything About (JS)
+### Das Web regelt alles (JS)
 
-While the array of environments that run JS is constantly expanding (from browsers, to servers (Node.js), to robots, to lightbulbs, to...), the one environment that rules JS is the web. In other words, how JS is implemented for web browsers is, in all practicality, the only reality that matters.
+Während sich die Palette der Umgebungen, in denen JS ausgeführt wird, ständig erweitert (von Browsern über Server (Node.js) bis hin zu Robotern und Glühbirnen...), ist die einzige Umgebung, die JS beherrscht, das Web. Mit anderen Worten, wie JS für Webbrowser implementiert wird, ist praktisch die einzige Realität, die zählt.
 
-For the most part, the JS defined in the specification and the JS that runs in browser-based JS engines is the same. But there are some differences that must be considered.
+Das in der Spezifikation definierte JS und das JS, welches in browserbasierten JS-Engines läuft, sind größtenteils identisch. Es gibt jedoch einige Unterschiede, die berücksichtigt werden müssen.
 
-Sometimes the JS specification will dictate some new or refined behavior, and yet that won't exactly match with how it works in browser-based JS engines. Such a mismatch is historical: JS engines have had 20+ years of observable behaviors around corner cases of features that have come to be relied on by web content. As such, sometimes the JS engines will refuse to conform to a specification-dictated change because it would break that web content.
+Manchmal schreibt die JS-Spezifikation ein neues oder verfeinertes Verhalten vor, das jedoch nicht genau mit dem übereinstimmt, wie es in browserbasierten JS-Engines funktioniert. Eine solche Unstimmigkeit ist historisch bedingt: JS-Engines verfügen seit mehr als 20 Jahren über beobachtbare Verhaltensweisen für Eckfälle von Funktionen, auf die sich Webinhalte inzwischen verlassen. Daher weigern sich die JS-Engines manchmal, sich an eine von der Spezifikation vorgeschriebene Änderung anzupassen, weil diese die Webinhalte zerstören würde.
 
-In these cases, often TC39 will backtrack and simply choose to conform the specification to the reality of the web. For example, TC39 planned to add a `contains(..)` method for Arrays, but it was found that this name conflicted with old JS frameworks still in use on some sites, so they changed the name to a non-conflicting `includes(..)`. The same happened with a comedic/tragic JS *community crisis* dubbed "smooshgate," where the planned `flatten(..)` method was eventually renamed `flat(..)`.
+In diesen Fällen macht TC39 oft einen Rückzieher und beschließt einfach, die Spezifikation an die Realität des Webs anzupassen. Zum Beispiel plante TC39, eine `contains(..)`-Methode für Arrays hinzuzufügen, aber es wurde festgestellt, dass dieser Name mit alten JS-Frameworks kollidierte, die immer noch auf einigen Websites verwendet werden, also änderten sie den Namen in ein nicht kollidierendes `includes(..)`. Dasselbe geschah mit einer komödiantischen/tragischen JS _Gemeinschaftskrise_, die "smooshgate" genannt wurde, wo die geplante `flatten(..)` Methode schließlich in `flat(..)` umbenannt wurde.
 
-But occasionally, TC39 will decide the specification should stick firm on some point even though it is unlikely that browser-based JS engines will ever conform.
+Aber gelegentlich beschließt TC39, dass die Spezifikation in einem bestimmten Punkt bestehen bleiben sollte, auch wenn es unwahrscheinlich ist, dass browserbasierte JS-Engines jemals konform sein werden.
 
-The solution? Appendix B, "Additional ECMAScript Features for Web Browsers".[^specApB] The JS specification includes this appendix to detail out any known mismatches between the official JS specification and the reality of JS on the web. In other words, these are exceptions that are allowed *only* for web JS; other JS environments must stick to the letter of the law.
+Die Lösung? Anhang B, "Zusätzliche ECMAScript-Funktionen für Webbrowser".[^specapb] Die JS-Spezifikation enthält diesen Anhang, um alle bekannten Unstimmigkeiten zwischen der offiziellen JS-Spezifikation und der Realität von JS im Web aufzuzeigen. Mit anderen Worten, dies sind Ausnahmen, die _nur_ für Web-JS zulässig sind; andere JS-Umgebungen müssen sich an die Gesetze halten.
 
-Section B.1 and B.2 cover *additions* to JS (syntax and APIs) that web JS includes, again for historical reasons, but which TC39 does not plan to formally specify in the core of JS. Examples include `0`-prefixed octal literals, the global `escape(..)` / `unescape(..)` utilities, String "helpers" like `anchor(..)` and `blink()`, and the RegExp `compile(..)` method.
+Die Abschnitte B.1 und B.2 befassen sich mit _Zusätzen_ zu JS (Syntax und APIs), die Web-JS - wiederum aus historischen Gründen - enthält, die aber nach den Plänen des TC39 nicht formell im Kern von JS festgelegt werden sollen. Beispiele sind `0`-vorangestellte Oktal-Literale, die globalen `escape(..)` / `unescape(..)` Hilfsprogramme, String "Helfer" wie `anchor(..)` und `blink()`, und die RegExp `compile(..)` Methode.
 
-Section B.3 includes some conflicts where code may run in both web and non-web JS engines, but where the behavior *could* be observably different, resulting in different outcomes. Most of the listed changes involve situations that are labeled as early errors when code is running in strict mode.
+Abschnitt B.3 enthält einige Konflikte, bei denen Code sowohl in Web- als auch in Nicht-Web-JS-Engines ausgeführt werden kann, bei denen das Verhalten jedoch deutlich unterschiedlich sein _könnte_, was zu unterschiedlichen Ergebnissen führt. Die meisten der aufgeführten Änderungen betreffen Situationen, die als frühe Fehler bezeichnet werden, wenn der Code im Strict-Modus läuft.
 
-Appendix B *gotchas* aren't encountered very often, but it's still a good idea to avoid these constructs to be future safe. Wherever possible, adhere to the JS specification and don't rely on behavior that's only applicable in certain JS engine environments.
+Anhang B _gotchas_ sind nicht sehr häufig anzutreffen, aber es ist trotzdem eine gute Idee, diese Konstrukte zu vermeiden, um zukunftssicher zu sein. Wo immer möglich, halten Sie sich an die JS-Spezifikation und verlassen Sie sich nicht auf ein Verhalten, das nur in bestimmten JS-Engine-Umgebungen anwendbar ist.
 
 ### Not All (Web) JS...
 
@@ -112,7 +114,7 @@ Is this code a JS program?
 alert("Hello, JS!");
 ```
 
-Depends on how you look at things. The `alert(..)` function shown here is not included in the JS specification, but it *is* in all web JS environments. Yet, you won't find it in Appendix B, so what gives?
+Depends on how you look at things. The `alert(..)` function shown here is not included in the JS specification, but it _is_ in all web JS environments. Yet, you won't find it in Appendix B, so what gives?
 
 Various JS environments (like browser JS engines, Node.js, etc.) add APIs into the global scope of your JS programs that give you environment-specific capabilities, like being able to pop an alert-style box in the user's browser.
 
@@ -120,39 +122,39 @@ In fact, a wide range of JS-looking APIs, like `fetch(..)`, `getCurrentLocation(
 
 Another common example is `console.log(..)` (and all the other `console.*` methods!). These are not specified in JS, but because of their universal utility are defined by pretty much every JS environment, according to a roughly agreed consensus.
 
-So `alert(..)` and `console.log(..)` are not defined by JS. But they *look* like JS. They are functions and object methods and they obey JS syntax rules. The behaviors behind them are controlled by the environment running the JS engine, but on the surface they definitely have to abide by JS to be able to play in the JS playground.
+So `alert(..)` and `console.log(..)` are not defined by JS. But they _look_ like JS. They are functions and object methods and they obey JS syntax rules. The behaviors behind them are controlled by the environment running the JS engine, but on the surface they definitely have to abide by JS to be able to play in the JS playground.
 
 Most of the cross-browser differences people complain about with "JS is so inconsistent!" claims are actually due to differences in how those environment behaviors work, not in how the JS itself works.
 
-So an `alert(..)` call *is* JS, but `alert` itself is really just a guest, not part of the official JS specification.
+So an `alert(..)` call _is_ JS, but `alert` itself is really just a guest, not part of the official JS specification.
 
 ### It's Not Always JS
 
 Using the console/REPL (Read-Evaluate-Print-Loop) in your browser's Developer Tools (or Node) feels like a pretty straightforward JS environment at first glance. But it's not, really.
 
-Developer Tools are... tools for developers. Their primary purpose is to make life easier for developers. They prioritize DX (Developer Experience). It is *not* a goal of such tools to accurately and purely reflect all nuances of strict-spec JS behavior. As such, there's many quirks that may act as "gotchas" if you're treating the console as a *pure* JS environment.
+Developer Tools are... tools for developers. Their primary purpose is to make life easier for developers. They prioritize DX (Developer Experience). It is _not_ a goal of such tools to accurately and purely reflect all nuances of strict-spec JS behavior. As such, there's many quirks that may act as "gotchas" if you're treating the console as a _pure_ JS environment.
 
-This convenience is a good thing, by the way! I'm glad Developer Tools make developers' lives easier! I'm glad we have nice UX charms like auto-complete of variables/properties, etc. I'm just pointing out that we can't and shouldn't expect such tools to *always* adhere strictly to the way JS programs are handled, because that's not the purpose of these tools.
+This convenience is a good thing, by the way! I'm glad Developer Tools make developers' lives easier! I'm glad we have nice UX charms like auto-complete of variables/properties, etc. I'm just pointing out that we can't and shouldn't expect such tools to _always_ adhere strictly to the way JS programs are handled, because that's not the purpose of these tools.
 
 Since such tools vary in behavior from browser to browser, and since they change (sometimes rather frequently), I'm not going to "hardcode" any of the specific details into this text, thereby ensuring this book text is outdated quickly.
 
 But I'll just hint at some examples of quirks that have been true at various points in different JS console environments, to reinforce my point about not assuming native JS behavior while using them:
 
-* Whether a `var` or `function` declaration in the top-level "global scope" of the console actually creates a real global variable (and mirrored `window` property, and vice versa!).
+-   Whether a `var` or `function` declaration in the top-level "global scope" of the console actually creates a real global variable (and mirrored `window` property, and vice versa!).
 
-* What happens with multiple `let` and `const` declarations in the top-level "global scope."
+-   What happens with multiple `let` and `const` declarations in the top-level "global scope."
 
-* Whether `"use strict";` on one line-entry (pressing `<enter>` after) enables strict mode for the rest of that console session, the way it would on the first line of a .js file, as well as whether you can use `"use strict";` beyond the "first line" and still get strict mode turned on for that session.
+-   Whether `"use strict";` on one line-entry (pressing `<enter>` after) enables strict mode for the rest of that console session, the way it would on the first line of a .js file, as well as whether you can use `"use strict";` beyond the "first line" and still get strict mode turned on for that session.
 
-* How non-strict mode `this` default-binding works for function calls, and whether the "global object" used will contain expected global variables.
+-   How non-strict mode `this` default-binding works for function calls, and whether the "global object" used will contain expected global variables.
 
-* How hoisting (see Book 2, *Scope & Closures*) works across multiple line entries.
+-   How hoisting (see Book 2, _Scope & Closures_) works across multiple line entries.
 
-* ...several others
+-   ...several others
 
 The developer console is not trying to pretend to be a JS compiler that handles your entered code exactly the same way the JS engine handles a .js file. It's trying to make it easy for you to quickly enter a few lines of code and see the results immediately. These are entirely different use cases, and as such, it's unreasonable to expect one tool to handle both equally.
 
-Don't trust what behavior you see in a developer console as representing *exact* to-the-letter JS semantics; for that, read the specification. Instead, think of the console as a "JS-friendly" environment. That's useful in its own right.
+Don't trust what behavior you see in a developer console as representing _exact_ to-the-letter JS semantics; for that, read the specification. Instead, think of the console as a "JS-friendly" environment. That's useful in its own right.
 
 ## Many Faces
 
@@ -162,11 +164,11 @@ But no matter what a program's individual style may be, the big picture division
 
 Typical paradigm-level code categories include procedural, object-oriented (OO/classes), and functional (FP):
 
-* Procedural style organizes code in a top-down, linear progression through a pre-determined set of operations, usually collected together in related units called procedures.
+-   Procedural style organizes code in a top-down, linear progression through a pre-determined set of operations, usually collected together in related units called procedures.
 
-* OO style organizes code by collecting logic and data together into units called classes.
+-   OO style organizes code by collecting logic and data together into units called classes.
 
-* FP style organizes code into functions (pure computations as opposed to procedures), and the adaptations of those functions as values.
+-   FP style organizes code into functions (pure computations as opposed to procedures), and the adaptations of those functions as values.
 
 Paradigms are neither right nor wrong. They're orientations that guide and mold how programmers approach problems and solutions, how they structure and maintain their code.
 
@@ -178,7 +180,7 @@ JavaScript is most definitely a multi-paradigm language. You can write procedura
 
 ## Backwards & Forwards
 
-One of the most foundational principles that guides JavaScript is preservation of *backwards compatibility*. Many are confused by the implications of this term, and often confuse it with a related but different term: *forwards compatibility*.
+One of the most foundational principles that guides JavaScript is preservation of _backwards compatibility_. Many are confused by the implications of this term, and often confuse it with a related but different term: _forwards compatibility_.
 
 Let's set the record straight.
 
@@ -194,7 +196,7 @@ There are some small exceptions to this rule. JS has had some backwards-incompat
 
 These kinds of changes are rare, and are almost always in corner cases of usage that are unlikely to be observably breaking in many sites.
 
-Compare *backwards compatibility* to its counterpart, *forwards compatibility*. Being forwards-compatible means that including a new addition to the language in a program would not cause that program to break if it were run in an older JS engine. **JS is not forwards-compatible**, despite many wishing such, and even incorrectly believing the myth that it is.
+Compare _backwards compatibility_ to its counterpart, _forwards compatibility_. Being forwards-compatible means that including a new addition to the language in a program would not cause that program to break if it were run in an older JS engine. **JS is not forwards-compatible**, despite many wishing such, and even incorrectly believing the myth that it is.
 
 HTML and CSS, by contrast, are forwards-compatible but not backwards-compatible. If you dug up some HTML or CSS written back in 1995, it's entirely possible it would not work (or work the same) today. But, if you use a new feature from 2019 in a browser from 2010, the page isn't "broken" -- the unrecognized CSS/HTML is skipped over, while the rest of the CSS/HTML would be processed accordingly.
 
@@ -222,8 +224,7 @@ For example, a developer may write a snippet of code like:
 if (something) {
     let x = 3;
     console.log(x);
-}
-else {
+} else {
     let x = 4;
     console.log(x);
 }
@@ -236,8 +237,7 @@ var x$0, x$1;
 if (something) {
     x$0 = 3;
     console.log(x$0);
-}
-else {
+} else {
     x$1 = 4;
     console.log(x$1);
 }
@@ -245,8 +245,8 @@ else {
 
 The original snippet relied on `let` to create block-scoped `x` variables in both the `if` and `else` clauses which did not interfere with each other. An equivalent program (with minimal re-working) that Babel can produce just chooses to name two different variables with unique names, producing the same non-interference outcome.
 
-| NOTE: |
-| :--- |
+| NOTE:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | The `let` keyword was added in ES6 (in 2015). The preceding example of transpiling would only need to apply if an application needed to run in a pre-ES6 supporting JS environment. The example here is just for simplicity of illustration. When ES6 was new, the need for such a transpilation was quite prevalent, but in 2020 it's much less common to need to support pre-ES6 environments. The "target" used for transpiliation is thus a sliding window that shifts upward only as decisions are made for a site/application to stop supporting some old browser/engine. |
 
 You may wonder: why go to the trouble of using a tool to convert from a newer syntax version to an older one? Couldn't we just write the two variables and skip using the `let` keyword? The reason is, it's strongly recommended that developers use the latest version of JS so that their code is clean and communicates its ideas most effectively.
@@ -267,10 +267,9 @@ var pr = getSomeRecords();
 // show the UI spinner while we get the data
 startSpinner();
 
-pr
-.then(renderRecords)   // render if successful
-.catch(showError)      // show an error if not
-.finally(hideSpinner)  // always hide the spinner
+pr.then(renderRecords) // render if successful
+    .catch(showError) // show an error if not
+    .finally(hideSpinner); // always hide the spinner
 ```
 
 This code uses an ES2019 feature, the `finally(..)` method on the promise prototype. If this code were used in a pre-ES2019 environment, the `finally(..)` method would not exist, and an error would occur.
@@ -279,27 +278,25 @@ A polyfill for `finally(..)` in pre-ES2019 environments could look like this:
 
 ```js
 if (!Promise.prototype.finally) {
-    Promise.prototype.finally = function f(fn){
+    Promise.prototype.finally = function f(fn) {
         return this.then(
-            function t(v){
-                return Promise.resolve( fn() )
-                    .then(function t(){
-                        return v;
-                    });
+            function t(v) {
+                return Promise.resolve(fn()).then(function t() {
+                    return v;
+                });
             },
-            function c(e){
-                return Promise.resolve( fn() )
-                    .then(function t(){
-                        throw e;
-                    });
+            function c(e) {
+                return Promise.resolve(fn()).then(function t() {
+                    throw e;
+                });
             }
         );
     };
 }
 ```
 
-| WARNING: |
-| :--- |
+| WARNING:                                                                                                                                                                                                                                                      |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | This is only a simple illustration of a basic (not entirely spec-compliant) polyfill for `finally(..)`. Don't use this polyfill in your code; always use a robust, official polyfill wherever possible, such as the collection of polyfills/shims in ES-Shim. |
 
 The `if` statement protects the polyfill definition by preventing it from running in any environment where the JS engine has already defined that method. In older environments, the polyfill is defined, but in newer environments the `if` statement is quietly skipped.
@@ -348,7 +345,7 @@ In other words, parsed languages usually also perform code generation before exe
 
 JS source code is parsed before it is executed. The specification requires as much, because it calls for "early errors"—statically determined errors in code, such as a duplicate parameter name—to be reported before the code starts executing. Those errors cannot be recognized without the code having been parsed.
 
-So **JS is a parsed language**, but is it *compiled*?
+So **JS is a parsed language**, but is it _compiled_?
 
 The answer is closer to yes than no. The parsed JS is converted to an optimized (binary) form, and that "code" is subsequently executed (Figure 2); the engine does not commonly switch back into line-by-line execution (like Figure 1) mode after it has finished all the hard work of parsing—most languages/engines wouldn't, because that would be highly inefficient.
 
@@ -406,21 +403,21 @@ Another perspective on WASM that's emerging is, interestingly, not even directly
 
 So, WASM isn't only for the web, and WASM also isn't JS. Ironically, even though WASM runs in the JS engine, the JS language is one of the least suitable languages to source WASM programs with, because WASM relies heavily on static typing information. Even TypeScript (TS)—ostensibly, JS + static types—is not quite suitable (as it stands) to transpile to WASM, though language variants like AssemblyScript are attempting to bridge the gap between JS/TS and WASM.
 
-This book isn't about WASM, so I won't spend much more time discussing it, except to make one final point. *Some* folks have suggested WASM points to a future where JS is excised from, or minimized in, the web. These folks often harbor ill feelings about JS, and want some other language—any other language!—to replace it. Since WASM lets other languages run in the JS engine, on its face this isn't an entirely fanciful fairytale.
+This book isn't about WASM, so I won't spend much more time discussing it, except to make one final point. _Some_ folks have suggested WASM points to a future where JS is excised from, or minimized in, the web. These folks often harbor ill feelings about JS, and want some other language—any other language!—to replace it. Since WASM lets other languages run in the JS engine, on its face this isn't an entirely fanciful fairytale.
 
 But let me just state simply: WASM will not replace JS. WASM significantly augments what the web (including JS) can accomplish. That's a great thing, entirely orthogonal to whether some people will use it as an escape hatch from having to write JS.
 
 ## *Strict*ly Speaking
 
-Back in 2009 with the release of ES5, JS added *strict mode* as an opt-in mechanism for encouraging better JS programs.
+Back in 2009 with the release of ES5, JS added _strict mode_ as an opt-in mechanism for encouraging better JS programs.
 
-The benefits of strict mode far outweigh the costs, but old habits die hard and the inertia of existing (aka "legacy") code bases is really hard to shift. So sadly, more than 10 years later, strict mode's *optionality* means that it's still not necessarily the default for JS programmers.
+The benefits of strict mode far outweigh the costs, but old habits die hard and the inertia of existing (aka "legacy") code bases is really hard to shift. So sadly, more than 10 years later, strict mode's _optionality_ means that it's still not necessarily the default for JS programmers.
 
-Why strict mode? Strict mode shouldn't be thought of as a restriction on what you can't do, but rather as a guide to the best way to do things so that the JS engine has the best chance of optimizing and efficiently running the code. Most JS code is worked on by teams of developers, so the *strict*-ness of strict mode (along with tooling like linters!) often helps collaboration on code by avoiding some of the more problematic mistakes that slip by in non-strict mode.
+Why strict mode? Strict mode shouldn't be thought of as a restriction on what you can't do, but rather as a guide to the best way to do things so that the JS engine has the best chance of optimizing and efficiently running the code. Most JS code is worked on by teams of developers, so the _strict_-ness of strict mode (along with tooling like linters!) often helps collaboration on code by avoiding some of the more problematic mistakes that slip by in non-strict mode.
 
-Most strict mode controls are in the form of *early errors*, meaning errors that aren't strictly syntax errors but are still thrown at compile time (before the code is run). For example, strict mode disallows naming two function parameters the same, and results in an early error. Some other strict mode controls are only observable at runtime, such as how `this` defaults to `undefined` instead of the global object.
+Most strict mode controls are in the form of _early errors_, meaning errors that aren't strictly syntax errors but are still thrown at compile time (before the code is run). For example, strict mode disallows naming two function parameters the same, and results in an early error. Some other strict mode controls are only observable at runtime, such as how `this` defaults to `undefined` instead of the global object.
 
-Rather than fighting and arguing with strict mode, like a kid who just wants to defy whatever their parents tell them not to do, the best mindset is that strict mode is like a linter reminding you how JS *should* be written to have the highest quality and best chance at performance. If you find yourself feeling handcuffed, trying to work around strict mode, that should be a blaring red warning flag that you need to back up and rethink the whole approach.
+Rather than fighting and arguing with strict mode, like a kid who just wants to defy whatever their parents tell them not to do, the best mindset is that strict mode is like a linter reminding you how JS _should_ be written to have the highest quality and best chance at performance. If you find yourself feeling handcuffed, trying to work around strict mode, that should be a blaring red warning flag that you need to back up and rethink the whole approach.
 
 Strict mode is switched on per file with a special pragma (nothing allowed before it except comments/whitespace):
 
@@ -431,9 +428,9 @@ Strict mode is switched on per file with a special pragma (nothing allowed befor
 // the rest of the file runs in strict mode
 ```
 
-| WARNING: |
-| :--- |
-| Something to be aware of is that even a stray `;` all by itself appearing before the strict mode pragma will render the pragma useless; no errors are thrown because it's valid JS to have a string literal expression in a statement position, but it also will silently *not* turn on strict mode! |
+| WARNING:                                                                                                                                                                                                                                                                                             |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Something to be aware of is that even a stray `;` all by itself appearing before the strict mode pragma will render the pragma useless; no errors are thrown because it's valid JS to have a string literal expression in a statement position, but it also will silently _not_ turn on strict mode! |
 
 Strict mode can alternatively be turned on per-function scope, with exactly the same rules about its surroundings:
 
@@ -468,6 +465,6 @@ JS is a multi-paradigm language, meaning the syntax and capabilities allow a dev
 
 JS is a compiled language, meaning the tools (including the JS engine) process and verify a program (reporting any errors!) before it executes.
 
-With our language now *defined*, let's start getting to know its ins and outs.
+With our language now _defined_, let's start getting to know its ins and outs.
 
-[^specApB]: ECMAScript 2019 Language Specification, Appendix B: Additional ECMAScript Features for Web Browsers, https://www.ecma-international.org/ecma-262/10.0/#sec-additional-ecmascript-features-for-web-browsers (latest as of time of this writing in January 2020)
+[^specapb]: ECMAScript 2019 Language Specification, Appendix B: Additional ECMAScript Features for Web Browsers, https://www.ecma-international.org/ecma-262/10.0/#sec-additional-ecmascript-features-for-web-browsers (latest as of time of this writing in January 2020)

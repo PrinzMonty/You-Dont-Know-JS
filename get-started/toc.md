@@ -8,6 +8,7 @@
     -   Über dieses Buch
     -   Was hat es mit dem namen Javascript aufsich?
     -   Sprachspezifikation
+    -   Das Web regelt alles (JS)
     -   Viele Gesichter
     -   Rückwärts & Vorwärts
     -   Überspringen der Lücken
